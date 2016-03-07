@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Profile]
+(
+    [PartnerId] UNIQUEIDENTIFIER NOT NULL, 
+    [CobranderId] UNIQUEIDENTIFIER NOT NULL, 
+    [SiteProfileId] UNIQUEIDENTIFIER NOT NULL, 
+    [AccountId] UNIQUEIDENTIFIER NOT NULL, 
+    [BorrowerId] UNIQUEIDENTIFIER NOT NULL 
+)
